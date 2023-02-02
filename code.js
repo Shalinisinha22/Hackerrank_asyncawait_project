@@ -1,5 +1,5 @@
 module.exports={
-    answers:[``,`#include <cmath>
+    answers:[`#include <cmath>
     #include <cstdio>
     #include <vector>
     #include <iostream>
