@@ -49,12 +49,7 @@ for(let i=1;i<5;i++){
     await page.keyboard.press("A")
     await page.keyboard.press("V")
     await page.keyboard.up("Control")
-    await page.click("button[class='ui-btn ui-btn-normal ui-btn-primary pull-right hr-monaco-submit ui-btn-styled']")
-    await page.evaluate(async() => {
-      setTimeout(function(){
-          console.log('waiting');
-      }, 20000)
-    });
+    await page.click("button[class='ui-btn ui-btn-normal ui-btn-primary pull-right hr-monaco-submit ui-btn-styled']");
     
       
  }
